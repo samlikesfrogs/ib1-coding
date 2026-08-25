@@ -1,13 +1,9 @@
 #1
-#sun=input("is the sun shining? ")
-#if sun == "yes":
-#    time=int(input("what is the current time? "))
-#    if time >= 10 or time <= 16:
-#        x="pls use sunscreen"
-#    else:
-#        x="you're good"
-#else: 
-#    x = "you're good"
+#
+#if ((sun:=input("is the sun shining? ") == "yes") and (time:=int(input("what is the current time? "))) >= 10 or time <= 16):
+#    x="pls use sunscreen"
+#else:
+#    x="you're good"
 #print(x)
 
 #2
