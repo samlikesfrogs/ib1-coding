@@ -1,5 +1,4 @@
 #1
-#
 #if ((sun:=input("is the sun shining? ") == "yes") and (time:=int(input("what is the current time? "))) >= 10 or time <= 16):
 #    x="pls use sunscreen"
 #else:
@@ -9,7 +8,6 @@
 #2
 #a = str(input("give pos int: "))
 #b = str(input("give pos int: "))
-
 #if a[-1] == b[-1]:
 #    x = True
 #else:
@@ -57,7 +55,7 @@
 #    x=1
 #   factors = 0
 #    potentialPrime +=1
-#    for i in range(potentialPrime):
+#    for i in range(1, potentialPrime):
 #        if potentialPrime%x==0:
 #            factors +=1
 #        x+=1
@@ -69,7 +67,7 @@
 #    x=1
 #    factors = 0
 #    potentialPrime +=1
-#    for i in range(potentialPrime):
+#    for i in range(1, potentialPrime):
 #        if potentialPrime%x==0:
 #            factors +=1
 #        x+=1
@@ -79,3 +77,16 @@
 #print(primeList)
 
 #9
+#potentialPerfect = 1
+#perfectList = []
+#while potentialPerfect < 10000:
+#    total = sum([i for i in range(1, potentialPerfect) if potentialPerfect%i==0])
+#    if total==potentialPerfect:
+#        perfectList.append(potentialPerfect)
+#    potentialPerfect+=1
+#print(perfectList)
+
+#10 
+#1 what
+#2 huh
+# math sl frfr
