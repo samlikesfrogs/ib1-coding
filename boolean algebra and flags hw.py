@@ -1,3 +1,6 @@
+import math
+import random
+
 #1
 #if ((sun:=input("is the sun shining? ") == "yes") and (time:=int(input("what is the current time? "))) >= 10 or time <= 16):
 #    x="pls use sunscreen"
@@ -87,6 +90,20 @@
 #print(perfectList)
 
 #10 
-#1 what
-#2 huh
+#1 
+square = 2*2
+circle = math.pi*(1**2)
+ratio = square/circle
+print(ratio)
+#2 
+landed = 0
+total = 10000
+for i in range(0,total):
+    a = random.uniform(-1,1)
+    b = random.uniform(-1,1)
+    if (a**2)+(b**2)<=1:
+        landed+=1
+ratio = landed/total
+print(ratio)
+
 # math sl frfr
