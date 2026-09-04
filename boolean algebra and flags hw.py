@@ -91,19 +91,19 @@ import random
 
 #10 
 #1 
-square = 2*2
-circle = math.pi*(1**2)
-ratio = square/circle
-print(ratio)
+#square = 2*2
+#circle = math.pi*(1**2)
+#ratio = square/circle
+#print(ratio)
 #2 
-landed = 0
-total = 10000
-for i in range(0,total):
-    a = random.uniform(-1,1)
-    b = random.uniform(-1,1)
-    if (a**2)+(b**2)<=1:
-        landed+=1
-ratio = landed/total
-print(ratio)
+#landed = 0
+#total = 10000
+#for i in range(0,total):
+#    a = random.uniform(-1,1)
+#    b = random.uniform(-1,1)
+#    if (a**2)+(b**2)<=1:
+#        landed+=1
+#ratio = landed/total
+#print(ratio)
 
 # math sl frfr

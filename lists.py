@@ -26,4 +26,14 @@
 
 #3
 
+#4
+#stageOne = []
+#while (word := input("enter a word: ")) != "!":
+#    stageOne.append(word)
+#while (word2 := input("enter another word: ")) != "!":
+#    if word2 in stageOne:
+#        print("hit")
+
+
+
 
